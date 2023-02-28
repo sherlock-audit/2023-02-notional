@@ -12,6 +12,7 @@
 
 # On-chain context
 
+```
 DEPLOYMENT: mainnet
 ERC20: CVX, CRV, Curve LP Tokens, USDC, DAI, USDT, ETH, ETH Staking Derivatives (stETH, rETH, etc), and potentially any other assets supported by Curve and/or Convex.
 ERC721: none
@@ -20,6 +21,7 @@ FEE-ON-TRANSFER: none, Leveraged Vaults are explicitly prevented from using fee 
 REBASING TOKENS: stETH
 ADMIN: restricted, admins are expected to be able to settle, reinvest rewards and upgrade the smart contracts to mitigate security issues. Settlement and reinvestments should be done with slippage limits, however, it is not always feasible to calculate these on chain due to a lack of reliable oracles.
 EXTERNAL-ADMINS: restricted (Convex, Curve)
+```
 
 Please answer the following questions to provide more context: 
 ### Q: Are there any additional protocol roles? If yes, please explain in detail:
