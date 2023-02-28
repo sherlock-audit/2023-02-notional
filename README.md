@@ -74,4 +74,21 @@ A: [ACCEPTABLE/NOT ACCEPTABLE]
 
 # Audit scope
 
+
+[leveraged-vaults @ ec790f931988904f99da5c3514e8e1c74bad050b](https://github.com/notional-finance/leveraged-vaults/tree/ec790f931988904f99da5c3514e8e1c74bad050b)
+- [leveraged-vaults/contracts/trading/adapters/CurveV2Adapter.sol](leveraged-vaults/contracts/trading/adapters/CurveV2Adapter.sol)
+- [leveraged-vaults/contracts/vaults/Curve2TokenConvexVault.sol](leveraged-vaults/contracts/vaults/Curve2TokenConvexVault.sol)
+- [leveraged-vaults/contracts/vaults/curve/CurveVaultTypes.sol](leveraged-vaults/contracts/vaults/curve/CurveVaultTypes.sol)
+- [leveraged-vaults/contracts/vaults/curve/external/Curve2TokenConvexHelper.sol](leveraged-vaults/contracts/vaults/curve/external/Curve2TokenConvexHelper.sol)
+- [leveraged-vaults/contracts/vaults/curve/internal/CurveConstants.sol](leveraged-vaults/contracts/vaults/curve/internal/CurveConstants.sol)
+- [leveraged-vaults/contracts/vaults/curve/internal/CurveVaultStorage.sol](leveraged-vaults/contracts/vaults/curve/internal/CurveVaultStorage.sol)
+- [leveraged-vaults/contracts/vaults/curve/internal/pool/Curve2TokenPoolUtils.sol](leveraged-vaults/contracts/vaults/curve/internal/pool/Curve2TokenPoolUtils.sol)
+- [leveraged-vaults/contracts/vaults/curve/mixins/ConvexStakingMixin.sol](leveraged-vaults/contracts/vaults/curve/mixins/ConvexStakingMixin.sol)
+- [leveraged-vaults/contracts/vaults/curve/mixins/Curve2TokenPoolMixin.sol](leveraged-vaults/contracts/vaults/curve/mixins/Curve2TokenPoolMixin.sol)
+- [leveraged-vaults/contracts/vaults/curve/mixins/Curve2TokenVaultMixin.sol](leveraged-vaults/contracts/vaults/curve/mixins/Curve2TokenVaultMixin.sol)
+- [leveraged-vaults/contracts/vaults/curve/mixins/CurvePoolMixin.sol](leveraged-vaults/contracts/vaults/curve/mixins/CurvePoolMixin.sol)
+- [leveraged-vaults/contracts/trading/adapters/CurveAdapter.sol](leveraged-vaults/contracts/trading/adapters/CurveAdapter.sol)
+
+
+
 # About [project name]
