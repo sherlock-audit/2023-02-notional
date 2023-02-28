@@ -126,7 +126,7 @@ yarn install
 ```
 - name: Hardhat (Mainnet Fork)
   id: mainnet-fork
-  cmd: "npx.cmd hardhat node"
+  cmd: "npx hardhat node"  # use "npx.cmd hardhat node" on Windows
   host: http://127.0.0.1
   timeout: 120
   cmd_settings:
