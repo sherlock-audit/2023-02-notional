@@ -8,8 +8,10 @@
 # Resources
 
 - [Leveraged Vault Documentation](https://docs.notional.finance/developer-documentation/how-to/leveraged-vaults)
-- [Leveraged Vault Controller Code]()
-
+- Leveraged Vault Controller Code
+    - [External Actions](https://github.com/notional-finance/contracts-v2/tree/master/contracts/external/actions)
+    - [Internal Libraries](https://github.com/notional-finance/contracts-v2/tree/master/contracts/internal/vaults)
+    
 # On-chain context
 
 ```
@@ -122,7 +124,9 @@ yarn install
 ```
 
 ### Add mainnet-fork
-* Add the following YAML block to ~/.brownie/network-config.yaml under development
+
+Add the following YAML block to ~/.brownie/network-config.yaml under development
+
 ```
 - name: Hardhat (Mainnet Fork)
   id: mainnet-fork
@@ -133,7 +137,9 @@ yarn install
     port: 8545
     fork: mainnet
 ```
-https://eth-brownie.readthedocs.io/en/stable/network-management.html#
+
+NOTE: an API key for Infura, Alchemy or another block provider is required for fork testing. See the Brownie docs here:
+https://eth-brownie.readthedocs.io/en/stable/network-management.html
 
 ### Execute tests
 * Balancer tests
